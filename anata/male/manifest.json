@@ -3,6 +3,7 @@
   "format": "vrm",
   "traitsDirectory": "/anata/male/",
   "thumbnailsDirectory": "./loot/thumbnails/",
+  "decalDirectory":"/anata/male/decals/",
   "exportScale": 1,
   "animationPath": [
     "./animations/1_T-Pose.fbx",
@@ -63,6 +64,13 @@
       "cullingDistance": [
         0.1,
         0.01
+      ],
+      "decals":[
+        {
+          "id":"m3-tattoo",
+          "name":"M3 face Tattoo",
+          "diffuse":"/M3-tattoo.png"
+        }
       ],
       "collection": [
         {
