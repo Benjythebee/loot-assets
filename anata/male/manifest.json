@@ -65,13 +65,6 @@
         0.1,
         0.01
       ],
-      "decals":[
-        {
-          "id":"m3-tattoo",
-          "name":"M3 face Tattoo",
-          "diffuse":"/M3-tattoo.png"
-        }
-      ],
       "collection": [
         {
           "id": "male",
@@ -89,7 +82,8 @@
               "id":"Nose_LONG",
               "name":"Long Nose"
             }]
-          }]
+          }],
+          "decalCollection":"tattoos"
         }
       ]
     },
@@ -775,6 +769,20 @@
           "name": "mesh belt",
           "directory": "Waist/mesh_belt.vrm",
           "thumbnail": "Waist/mesh_belt.png"
+        }
+      ]
+    }
+  ],
+  "decalCollections":[
+    {
+      "type":"texture",
+      "name":"tattoos",
+      "collection":[
+        {
+          "id":"m3-tattoo",
+          "name":"M3 face Tattoo",
+          "directory":"_decalCollections/tattoos/M3-tattoo.png",
+          "thumbnail":"_decalCollections/tattoos/M3-tattoo_thumbnail.png"
         }
       ]
     }
