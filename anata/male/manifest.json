@@ -776,7 +776,7 @@
   "decalCollections":[
     {
       "type":"texture",
-      "name":"tattoos",
+      "trait":"tattoos",
       "collection":[
         {
           "id":"m3-tattoo",
